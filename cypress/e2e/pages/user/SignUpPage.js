@@ -22,7 +22,7 @@ export default class SignUpPage {
     validarMsgSucess(){                util.validarText(cadastroElements.msgSucess(), registrationSuccess)}
     validarMsgUsuarioExiste(){         util.validarText(cadastroElements.msgErroUsuarioExiste(), usernameAlreadyExist)}
     validarMsgConfirmPasswordErro(){   util.validarText(cadastroElements.msgErroConfirmPassword(), confirmPasswordError)}
-    validarMsgErrorEmail(){            util.validarText(cadastroElement.msgErrorEmail(), emailError)}
+    validarMsgErrorEmail(){            util.validarText(cadastroElements.msgErrorEmail(), emailError)}
 
     preencherCamposValidos(){
         util.typeAndTab(cadastroElements.formCampoFirstName(), 

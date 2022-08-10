@@ -23,7 +23,4 @@ export default class CreateCostumerPage {
     preencherCamposValidos(){      
         util.typeAndTab(createCostumerElements.formCampoName(), name, company, address, city,phone, email)  
     }
-    preencherCamposInvalidos(){      
-        util.typeAndTab(createCostumerElements.formCampoName(), name, '@@@@@@@', '@@@@@', city,'@@@@@@@', email)  
-    }
 }
